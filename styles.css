@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+nav {
+    height: 55px;
+    background-color: #F55A5A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 4px;
+}
+
+nav img {
+    height: 24px;
+}
+
+.sights {
+    display: flex;
+    padding: 20px;
+}
+
+.sights a {
+    color: #918E9B;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.sights h3 {
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.date {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+.country {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.description {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 326px;
+}
+
+.rightcont {
+    padding: 20px;
+
+}
+
+.location {
+    display: flex;  
+    margin-bottom: 4px;
+}
+
+.main{
+    width: 550px;
+    margin: 0 auto;
+}
